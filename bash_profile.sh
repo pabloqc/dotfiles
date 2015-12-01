@@ -1,7 +1,7 @@
+#GIT extension to show in which branch are you working.
 GIT_PS1_SHOWUPSTREAM="auto"
 GIT_PS1_SHOWCOLORHINTS="yes"
 source ~/.git-prompt.sh
-
 export PROMPT_COMMAND='__git_ps1 "\u@\h:\W" "\\\$ ";'
 
 #it loads rbenv every time you open a terminal
@@ -36,3 +36,6 @@ alias lsd="ls -lF ${colorflag} | grep --color=never '^d'"
 # Always use color output for `ls`
 alias ls="command ls ${colorflag}"
 
+#PATH
+export PATH="/usr/local/bin:$PATH"
+export PATH="/usr/local/sbin:$PATH"
