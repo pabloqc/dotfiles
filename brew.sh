@@ -33,10 +33,15 @@ brew install homebrew/dupes/grep
 brew install homebrew/dupes/openssh
 brew install homebrew/dupes/screen
 
-#Install Java
+#Installing R
+brew tap homebrew/science
+brew install r
+
+#Install Java and Rstudio
 brew tap caskroom/cask
 brew install brew-cask
 brew cask install java
+brew install Caskroom/cask/rstudio
 
 #Install Gradle
 brew install gradle
