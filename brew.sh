@@ -53,3 +53,4 @@ pip install awscli
 
 # Remove outdated versions from the cellar.
 brew cleanup
+brew cask cleanup
