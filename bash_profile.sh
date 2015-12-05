@@ -16,6 +16,7 @@ alias c='clear'
 
 # Shortcuts
 alias repo="cd ~/Repositories"
+alias update='brew update && brew upgrade brew-cask && brew cleanup && brew cask cleanup'
 
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`
