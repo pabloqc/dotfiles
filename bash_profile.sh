@@ -17,6 +17,7 @@ alias c='clear'
 # Shortcuts
 alias repo="cd ~/Repositories"
 alias update='brew update && brew upgrade -all && brew cleanup && brew cask cleanup'
+alias dm='docker-machine'
 
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`
