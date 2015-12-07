@@ -1,25 +1,20 @@
 {
-
-	"color_scheme": "Packages/Theme - Cyanide/Monocyanide.tmTheme",
-	"theme": "Cyanide.sublime-theme",
-	"icon_file_type_enable": true,
-	"centurion_folder_icons": true,
-
-	"contrasted_sidebar": true,
-	"contrasted_tabs": true,
-	"contrasted_quick_panel": true,
-
-	"large_scroll_bars": true,
-
-	"show_encoding": true,
-	"show_line_endings": true,
-
-	"ensure_newline_at_eof_on_save": true,
-
-
-
-	"ignored_packages":
-	[
-		"Vintage"
-	]
+  "centurion_folder_icons": true,
+  "color_scheme": "Packages/Theme - Cyanide/Monocyanide.tmTheme",
+  "contrasted_quick_panel": true,
+  "contrasted_sidebar": true,
+  "contrasted_tabs": true,
+  "ensure_newline_at_eof_on_save": true,
+  "tab_size": 2,
+  "translate_tabs_to_spaces": true,
+  "font_size": 17,
+  "icon_file_type_enable": true,
+  "ignored_packages":
+  [
+    "Vintage"
+  ],
+  "large_scroll_bars": true,
+  "show_encoding": true,
+  "show_line_endings": true,
+  "theme": "Cyanide.sublime-theme"
 }
