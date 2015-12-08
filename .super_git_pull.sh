@@ -8,7 +8,7 @@ CUR_DIR=$(pwd)
 echo "\n\033[1mPulling in latest changes for all repositories...\033[0m\n"
 
 # Find all git repositories and update it to the master latest revision
-for i in $(find ~/Repositories -name ".git" -type d | cut -c 3-); do
+for i in $(find ~/Repositories -name ".git"); do
     echo "";
     echo "\033[33m"+$i+"\033[0m";
 
