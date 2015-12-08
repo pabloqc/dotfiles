@@ -18,6 +18,7 @@ alias c='clear'
 alias repo="cd ~/Repositories"
 alias update='brew update && brew upgrade -all && brew cleanup && brew cask cleanup'
 alias dm='docker-machine'
+alias super_git_pull='sh ~/.super_git_pull.sh'
 
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`
